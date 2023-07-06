@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    font-family:"Mulish";
+    text-align: justify;
+}
+
+q{
+    font-style: italic;
+}
+
+.texteitalic{
+    font-style: italic;
+}
+
+h2{
+    font-weight:100;
+}
+
+h3{
+    font-weight: 100;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+/*BLOC DE GAUCHE*/
+
+#blocg{
+    background-color: #eae1d7;
+    width: 30%;
+    padding: 20px;
+}
+
+/*Bloc G1*/
+
+#blocg1{
+    text-align: center;
+    padding:20px 0;
+}
+
+#logo{
+    width: 100%;
+}
+
+/*Bloc G2*/
+
+#competences{
+    background-color: white;
+    color: #b7867b;
+    margin: 0px 20px 0px -20px;
+    padding: 5px 0px 5px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#blocg2{
+    padding: 20px 0;
+}
+
+/*Bloc G3*/
+
+#experiences{
+    background-color: white;
+    color: #b7867b;
+    margin: 0px 20px 0px -20px;
+    padding: 5px 0px 5px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+#blocg3{
+    padding: 20px 0;
+}
+
+/*BLOC DE DROITE*/
+
+#blocd{
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    flex-direction: column;
+}
+/*Bloc D1*/
+
+#blocd1{
+    display: flex;
+    width: 75%;
+}
+
+#carrecouleur{
+    background-color: #eae1d7;
+    width: 200px;
+    height: 150px;
+    margin-left: -20px;
+    padding: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blocd1icone{
+    width: 80%;
+    height: 200px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blocd1icone ul{
+    list-style-type: none;
+}
+
+.blocd1icone ul{
+    display: flex;
+}
+.blocd1icone ul li{
+    padding: 5px;
+}
+
+#profil{
+    width: 180%;
+    margin-top: -80px;
+    margin-left: -60px;
+}
+
+/*Bloc D2*/
+
+#formations{
+    background-color: #eae1d7;
+    color: #b7867b;
+    margin: 0px 400px 0px -20px;
+    padding: 5px 0px 5px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#blocd2{
+    padding: 20px 0;
+}
+
+.formaligne1{
+    text-align: center;
+    color: grey;
+}
+
+a{
+    color: black;
+}
+
+/*Bloc D3*/ 
+
+#projets{
+    background-color: #eae1d7;
+    color: #b7867b;
+    margin: 0px 480px 0px -20px;
+    padding: 5px 0px 5px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#blocd3{
+    padding: 20px 0;
+}
+
+/*Bloc D4*/
+
+#hobbies{
+    background-color: #eae1d7;
+    color: #b7867b;
+    margin: 0px 480px 0px -20px;
+    padding: 5px 20px 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+;
+}
+
+#blocd4{
+    padding: 20px 0;
+}
+
+#gif_hobbies{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#gif_hobbies img{
+    width: 10%;
+}
+
